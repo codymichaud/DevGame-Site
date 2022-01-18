@@ -15,8 +15,8 @@
 }
 
 .nav-link{
-    text-decoration: none;
+    text-decoration: underline;
     color: #e6e6ff;
-    
+    margin-left: 30px;
     font-size: 130%;
 }
