@@ -18,7 +18,9 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "css": "node-sass --include-path scss/_home.scss assets/css/style.css",
+    "watch": "nodemon -e scss -x 'npm run css'"
   },
   "repository": {
     "type": "git",
